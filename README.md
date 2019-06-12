@@ -17,7 +17,6 @@ Creational patterns often used in place of direct instantiation with constructor
 | **Abstract Factory** 	| Abstract factory pattern is used whenever we need another level of abstraction over a group of factories created using factory pattern.                                                          	|
 | **Singleton**        	| Singleton enables an application to have one and only one instance of a class per JVM. 
 
-<br>
 
 <h2>2. Structural Design Patterns</h2>
 Structural design patterns show us how to glue different pieces of a system together in a flexible and extensible fashion. These patterns help us guarantee that when one of the parts changes, the entire application structure does not need to change.
@@ -32,8 +31,6 @@ Structural design patterns show us how to glue different pieces of a system toge
 | **Facade**       	| Facade design pattern provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.                                                                                                	|
 | **Flyweight**    	| Flyweight design pattern enables use sharing of objects to support large numbers of fine-grained objects efficiently. A flyweight is a shared object that can be used in multiple contexts simultaneously. The flyweight acts as an independent object in each context. 	|
 | **Proxy**        	| In proxy design pattern, a proxy object provide a surrogate or placeholder for another object to control access to it. Proxy is heavily used to implement lazy loading related usecases where we do not want to create full object until it is actually needed.         	|
-|    
-
 
 <h2>3. Behavioral Design Patterns</h2>
 Behavioral patterns abstract an action we want to take on the object or class that takes the action. By changing the object or class, we can change the algorithm used, the objects affected, or the behavior, while still retaining the same basic interface for client classes.
