@@ -11,11 +11,11 @@ Creational patterns often used in place of direct instantiation with constructor
 
 | PATTERN     	| PURPOSE                                                                                                                                                                                          	|
 |------------------	|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| **Builder**          	| Builder design pattern is an alternative way to construct complex objects and should be used only when we want to build different types of immutable objects using same object building process. 	|
-| **Prototype**        	| Prototype design pattern is used in scenarios where application needs to create a large number of instances of a class, which have almost same state or differ very little.                      	|
-| **Factory**          	| Factory design pattern is most suitable when complex object creation steps are involved. To ensure that these steps are centralized and not exposed to composing classes.                        	|
+| **[Builder](/src/Creational/Builder/README.md)**          	| Builder design pattern is an alternative way to construct complex objects and should be used only when we want to build different types of immutable objects using same object building process. 	|
+| **[Prototype](/src/Creational/Prototype/README.md)**        	| Prototype design pattern is used in scenarios where application needs to create a large number of instances of a class, which have almost same state or differ very little.                      	|
+| **[Factory](/src/Creational/Factory/README.md)**          	| Factory design pattern is most suitable when complex object creation steps are involved. To ensure that these steps are centralized and not exposed to composing classes.                        	|
 | **Abstract Factory** 	| Abstract factory pattern is used whenever we need another level of abstraction over a group of factories created using factory pattern.                                                          	|
-| **Singleton**        	| Singleton enables an application to have one and only one instance of a class per JVM. 
+| **[Singleton](/src/Creational/Singleton/README.md)**        	| Singleton enables an application to have one and only one instance of a class per JVM. 
 
 
 <h2>2. Structural Design Patterns</h2>
@@ -24,7 +24,7 @@ Structural design patterns show us how to glue different pieces of a system toge
 
 | PATTERN 	| PURPOSE                                                                                                                                                                                                                                                                 	|
 |--------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| **[Builder](/src/Creational/Builder/README.md)**      	| An adapter convert the interface of a class into another interface clients expect. It lets classes work together that couldn’t otherwise because of incompatible interfaces.                                                                                            	|
+| **Adapter**      	| An adapter convert the interface of a class into another interface clients expect. It lets classes work together that couldn’t otherwise because of incompatible interfaces.                                                                                            	|
 | **Bridge**       	| Bridge design pattern is used to decouple a class into two parts – abstraction and it’s implementation– so that both can evolve in future without affecting each other. It increases the loose coupling between class abstraction and it’s implementation.              	|
 | **Composite**    	| Composite design pattern helps to compose the objects into tree structures to represent whole-part hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.                                                                  	|
 | **Decorator**    	| Decorator design pattern is used to add additional features or behaviors to a particular instance of a class, while not modifying the other instances of same class.                                                                                                    	|
