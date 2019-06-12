@@ -35,7 +35,6 @@ Structural design patterns show us how to glue different pieces of a system toge
 |    
 
 
-
 <h2>3. Behavioral Design Patterns</h2>
 Behavioral patterns abstract an action we want to take on the object or class that takes the action. By changing the object or class, we can change the algorithm used, the objects affected, or the behavior, while still retaining the same basic interface for client classes.
 <br><br>
