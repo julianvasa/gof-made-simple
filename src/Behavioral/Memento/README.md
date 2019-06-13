@@ -14,7 +14,7 @@ A memento is is like a restore point during the life cycle on the object, which 
 
 <h2>Design participants</h2>
 
-The observer pattern has four participants.
+The memento pattern has four participants.
 
 1. Originator – is the object that knows how to create and save it’s state for future. It provides methods createMemento() and restore(memento).
 2. Caretaker – performs an operation on the Originator while having the possibility to rollback. It keeps track of multiple mementos. Caretaker class refers to the Originator class for saving (createMemento()) and restoring (restore(memento)) originator’s internal state.

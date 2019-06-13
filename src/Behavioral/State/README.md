@@ -11,7 +11,7 @@ The state pattern is a behavioral design pattern. According to GoF definition, a
 
 <h2>Design participants</h2>
 
-The observer pattern has four participants.
+The state pattern has four participants.
 
 - State – The interface define operations which each state must handle.
 - Concrete States – The classes which contain the state specific behavior.
